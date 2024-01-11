@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cal{
+    width:20vw;
+    height:75vh;
+    border-radius: 28px;
+    border: 8px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top{
+    width: 100%;
+    height:5%;
+    border-top-right-radius: 28px;
+    border-top-left-radius: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.time{
+    font-size: 1rem;
+}
+
+.icon{
+    width: 15px;
+    height:15px;
+}
+.icon1{
+    width: 19px;
+    height: 19px;
+}
+.middle{
+    width: 100%;
+    height: 40%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.first h4 {
+    font-size: 20px;
+    color: white;
+}
+
+.second {
+    width: 100%;
+    height: 70%;
+}
+
+.second p {
+    font-size: 70px;
+    width: 100%;
+    height: 80%;
+    background-color: aqua;
+    padding-left: 10px;
+}
+
+.second h2 {
+    border: none;
+    outline: none;
+    background-color: aqua;
+    width: 100%;
+    height: 20%;
+    padding-left: 10px;
+    background-color: white;
+}
+
+.third {
+    width: 100%;
+    height: 10%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bottom{
+    width: 100%;
+    height: 55%;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+.bottom-icon-ctn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.left {
+    width: 70px;
+    height: 70px;
+}
+
+.right {
+    width: 70px;
+    height: 70px;
+}
+
